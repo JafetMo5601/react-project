@@ -1,15 +1,15 @@
 import './App.css';
 import Header from './Header';
 import Footer from './Footer';
-import Content from './Content';
+import Employees from './Employees';
 
 function App() {
   return (
-    <main>
+    <div>
       <Header></Header>
-      <Content></Content>
+      <Employees></Employees>
       <Footer></Footer>
-    </main>
+    </div>
   );
 }
 
